@@ -1,7 +1,7 @@
 import React from 'react';
 import styles, { layout } from '../style';
 import Button from './Button';
-import { features, notes } from "../constants/data";
+import { features } from "../constants/data";
 
 const FeatureCard = ({ icon, title, content, index }) => (
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 const Business = () => {
     return (
-        <section id="features" className={layout.section}>
+        <section id="features" className={`${layout.section}`}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>
                     You do the business, <br className="sm:block hidden" /> we’ll handle
