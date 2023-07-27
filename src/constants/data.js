@@ -43,6 +43,21 @@ export const features = [
     },
 ];
 
+export const notes = [
+    {
+        id: "notes-1",
+        content: "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market."
+    },
+    {
+        id: "notes-2",
+        content: "With our proactive steps, we make sure your information and transactions are secure, so you can improve your financial life by building credit, earning rewards and saving money."
+    },
+    {
+        id: "notes-3",
+        content: "with our balance transfer credit card, you can save your lot of money in interest charges. With earning rewards and saving money, you can improve your financial life by building credit."
+    },
+];
+
 export const feedback = [
     {
         id: "feedback-1",
